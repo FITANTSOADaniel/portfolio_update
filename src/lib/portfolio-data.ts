@@ -7,7 +7,7 @@ export const profile = {
   email: "fitantsoadaniel8@gmail.com",
   location: "Ivato, Madagascar",
   githubUsername: "vercel", // Used for GitHub API demo (any public username works)
-  cvUrl: "/cv.pdf",
+  cvUrl: "/src/assets/CV_Fitantsoa_Daniel.pdf",
   socials: {
     github: "https://github.com/FITANTSOADaniel",
     facebook: "https://facebook.com/",
@@ -44,7 +44,7 @@ export const fallbackProjects: Project[] = [
     stack: ["Next.js", "tRPC", "PostgreSQL", "Tailwind"],
     github: "https://github.com/",
     demo: "https://example.com",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    image: "/src/assets/cov.png",
   },
   {
     title: "Orbit Commerce",
@@ -52,7 +52,7 @@ export const fallbackProjects: Project[] = [
     stack: ["React", "Node.js", "Stripe", "Prisma"],
     github: "https://github.com/",
     demo: "https://example.com",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+    image: "/src/assets/admin_assoc.png",
   },
   {
     title: "Pulse Chat",
@@ -60,7 +60,31 @@ export const fallbackProjects: Project[] = [
     stack: ["TypeScript", "Socket.io", "Redis", "React"],
     github: "https://github.com/",
     demo: "https://example.com",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
+    image: "/src/assets/user_assoc.png",
+  },
+  {
+    title: "Nimbus Analytics",
+    description: "Tableau de bord temps réel pour suivre les KPIs SaaS avec graphiques interactifs.",
+    stack: ["Next.js", "tRPC", "PostgreSQL", "Tailwind"],
+    github: "https://github.com/",
+    demo: "https://example.com",
+    image: "/src/assets/ecomm_user.png",
+  },
+  {
+    title: "Orbit Commerce",
+    description: "Plateforme e-commerce headless avec CMS sur-mesure et paiements Stripe.",
+    stack: ["React", "Node.js", "Stripe", "Prisma"],
+    github: "https://github.com/",
+    demo: "https://example.com",
+    image: "/src/assets/chat.jpg",
+  },
+  {
+    title: "Pulse Chat",
+    description: "Application de messagerie temps réel avec WebSockets et chiffrement end-to-end.",
+    stack: ["TypeScript", "Socket.io", "Redis", "React"],
+    github: "https://github.com/",
+    demo: "https://example.com",
+    image: "/src/assets/ecomm_admin.png",
   },
 ];
 

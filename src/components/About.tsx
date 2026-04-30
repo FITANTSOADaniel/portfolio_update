@@ -30,8 +30,8 @@ export function About() {
           <p>
             Grâce à différents projets académiques et personnels j'ai acquis des solides compétences pourtant je souhaite toujours apprendre et progresser dans le domaine du développement.
           </p>
-          <p className="text-lg font-medium text-primary mb-4 tracking-wider uppercase">
-            Outils et Frameworks :
+          <p className="text-sm font-medium text-primary mb-4 tracking-wider uppercase">
+            Outils et Frameworks maitrisés:
           </p>
           <div className="flex flex-wrap gap-2">
             {technologies.map((t) => (
