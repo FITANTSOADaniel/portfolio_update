@@ -6,11 +6,11 @@ export const profile = {
     "Je conçois et développe des applications web et mobiles modernes, performantes.",
   email: "fitantsoadaniel8@gmail.com",
   location: "Ivato, Madagascar",
-  githubUsername: "vercel", // Used for GitHub API demo (any public username works)
+  // githubUsername: "vercel", // Used for GitHub API demo (any public username works)
   cvUrl: "/src/assets/CV_Fitantsoa_Daniel.pdf",
   socials: {
     github: "https://github.com/FITANTSOADaniel",
-    facebook: "https://facebook.com/",
+    facebook: "https://www.facebook.com/daniel.rabemanantsoa.2025",
   },
 };
 
@@ -90,27 +90,21 @@ export const fallbackProjects: Project[] = [
 
 export const experiences = [
   {
-    period: "2023 — Présent",
-    role: "Lead Developer FullStack",
-    company: "Atlas Studio",
-    description: "Direction technique d'une équipe de 5 ingénieurs sur des produits SaaS B2B. Architecture, code review, mentorat.",
+    period: "Janvier 2026",
+    role: "Licence en Informatique",
+    company: "Ecole Nationale d'Informatique",
+    description: "",
   },
   {
-    period: "2021 — 2023",
-    role: "Software Engineer",
-    company: "Northwind",
-    description: "Développement d'un produit de data visualization servant 50k+ utilisateurs. Migration vers Next.js et amélioration des performances de 60%.",
+    period: "Octobre 2025 - Décembre 2025",
+    role: "Stagiaire Développeur web Full Stack",
+    company: "Start up",
+    description: "Conception et réalisation d'une plateforme de covoiturage.",
   },
   {
-    period: "2019 — 2021",
-    role: "Frontend Developer",
-    company: "Freelance",
-    description: "Conception et développement de sites et applications pour des startups early-stage et agences créatives.",
-  },
-  {
-    period: "2018",
-    role: "Diplôme Master Informatique",
-    company: "Université Paris-Saclay",
-    description: "Spécialisation en génie logiciel et systèmes distribués.",
-  },
+    period: "Septembre 2024 - Novembre 2024",
+    role: "Stagiaire Développeur web Full Stack",
+    company: "IRATRAVO",
+    description: "Conception et développement de sites pour la gestion des associations.",
+  }
 ];
