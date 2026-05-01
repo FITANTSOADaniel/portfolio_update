@@ -1,0 +1,18 @@
+# Configuration de déploiement Netlify pour TanStack Start.
+# Le preset "netlify" de TanStack Start génère automatiquement les Netlify
+# Functions (SSR + server functions) et le dossier statique attendu.
+
+[build]
+  command = "npm run build"
+  publish = "dist/client"
+
+[build.environment]
+  DEPLOY_TARGET = "netlify"
+  NODE_VERSION = "20"
+
+# Fallback SPA — TanStack Start gère le SSR via Netlify Functions, mais ce
+# redirect couvre les routes statiques non préchargées.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
