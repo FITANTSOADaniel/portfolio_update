@@ -13,7 +13,7 @@ export function About() {
           transition={{ duration: 0.6 }}
           className="space-y-4 text-muted-foreground leading-relaxed"
         >
-          <p>
+          {/* <p>
             Passionné par le web depuis plus de 6 ans, je conçois des produits qui
             allient performance, design et expérience utilisateur. Mon terrain de
             jeu : du <span className="text-foreground font-medium">React</span> moderne
@@ -23,6 +23,15 @@ export function About() {
           <p>
             J'aime collaborer avec des équipes ambitieuses, transformer des idées
             complexes en interfaces simples, et apprendre continuellement.
+          </p> */}
+          <p>
+            Passionné depuis toujours par la technologie et l'innovation, je me suis spécialisé dans le développement d'applications web et mobiles.
+          </p>
+          <p>
+            Grâce à différents projets académiques et personnels j'ai acquis des solides compétences pourtant je souhaite toujours apprendre et progresser dans le domaine du développement.
+          </p>
+          <p className="text-sm font-medium text-primary mb-4 tracking-wider uppercase">
+            Outils et Frameworks maitrisés:
           </p>
           <div className="flex flex-wrap gap-2 pt-4">
             {technologies.map((t) => (
