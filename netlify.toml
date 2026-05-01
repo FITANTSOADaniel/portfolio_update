@@ -1,17 +1,12 @@
-# Configuration de déploiement Netlify pour TanStack Start.
-# Le preset "netlify" de TanStack Start génère automatiquement les Netlify
-# Functions (SSR + server functions) et le dossier statique attendu.
-
+# Configuration Netlify pour SPA Vite (React Router côté client).
 [build]
   command = "npm run build"
-  publish = "dist/client"
+  publish = "dist"
 
 [build.environment]
-  DEPLOY_TARGET = "netlify"
   NODE_VERSION = "20"
 
-# Fallback SPA — TanStack Start gère le SSR via Netlify Functions, mais ce
-# redirect couvre les routes statiques non préchargées.
+# Toutes les URLs renvoient vers index.html — React Router gère le routing côté client.
 [[redirects]]
   from = "/*"
   to = "/index.html"

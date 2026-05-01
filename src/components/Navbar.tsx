@@ -22,7 +22,7 @@ export function Navbar() {
       <nav className="glass rounded-full px-5 py-3 flex items-center justify-between shadow-card">
         <a href="#hero" className="flex items-center gap-2 font-semibold">
           <Code2 className="h-5 w-5 text-primary" />
-          <span className="hidden sm:inline">F. Daniel</span>
+          <span className="hidden sm:inline">alex.dev</span>
         </a>
         <ul className="hidden md:flex items-center gap-1">
           {links.map((l) => (

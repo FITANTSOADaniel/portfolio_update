@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { motion } from "framer-motion";
 import { Mail, MapPin, Send, CheckCircle2 } from "lucide-react";
-import { GithubIcon, FacebookIcon } from "./BrandIcons";
+import { GithubIcon, LinkedinIcon, TwitterIcon } from "./BrandIcons";
 import { Section } from "./Section";
 import { profile } from "@/lib/portfolio-data";
 
@@ -38,7 +38,8 @@ export function Contact() {
           <div className="flex gap-2">
             {[
               { icon: GithubIcon, href: profile.socials.github, label: "GitHub" },
-              { icon: FacebookIcon, href: profile.socials.facebook, label: "Facebook" },
+              { icon: LinkedinIcon, href: profile.socials.linkedin, label: "LinkedIn" },
+              { icon: TwitterIcon, href: profile.socials.twitter, label: "Twitter" },
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
