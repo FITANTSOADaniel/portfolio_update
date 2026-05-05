@@ -28,6 +28,13 @@ export const technologies = [
   "Prisma", "Git/Github", "Docker",
 ];
 
+export const funFacts = [
+  { label: "Projets Réalisés", value: 6, icon: "Code" },
+  { label: "Technologies Maîtrisées", value: 11, icon: "Zap" },
+  { label: "Années d'Expérience", value: 2, icon: "Clock" },
+  { label: "Langues Parlées", value: 3, icon: "Globe" },
+];
+
 export type Project = {
   title: string;
   description: string;
